@@ -1,4 +1,4 @@
-from urllib.request import urlopen
-html = urlopen("http://www.google.com/")
-print(html.read())
+import wikipedia
+
+print(wikipedia.summary("Wikipedia"))
 
